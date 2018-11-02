@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СЕМАНТИКА</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__item logo">
+        <img src="pics/ITCLogo.svg" alt="ТЫ ПРОЕБАЛ ЛОГОТИП" class="logo__image">
+        <h1 class="logo__name">Cемантика</h1>
+      </a>
+      <form class="header__item search">
+        <input type="text" placeholder="Поиск" class="search__item">
+      </form>
+      <nav class="header__item nav">
+        <ul>
+          <li class="nav__item"><a href="#" class="nav__link">Мужчины</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Женщины</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Семантика x CDG</a></li> <!-- со шрифтом -->
+          <li class="nav__item"><a href="#" class="nav__link">Скидки</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </header>
+    <div>
+      <div> <!-- левый блок -->
+        <div> <!-- пользователь -->
+          <img src="pics/userIcon.png" alt="ТУТ ТВОЁ ЛИЦО" width="100" height="100">
+          <span>Фнейм</span> <!-- я хз, во что обрамлять текст. на половине сайтов он вообще между тегами болтается или вписан в атрибуты ссылки или div -->
+          <span>Лнейм</span>
+        </div>
+        <div> <!-- корзина -->
+          <h3>КОРЗИНА</h3>
+          <div> <!-- товар1 -->
+            <a href="#">
+              <!-- <img src="pics/hat.jpg" alt="item1" width="80" height="80"> -->
+              <span>ШАПКА</span>
+              <span>1</span> <!-- кол-во -->
+              <span>x 20$</span>
+            </a>
+            <input type="button" value="+">
+            <input type="button" value="-">
+          </div>
+          <div> <!-- товар2 -->
+            <a href="#">
+              <!-- <img src="pics/hoodie.jpg" alt="item2" width="80" height="80"> -->
+              <span>ХУДИ</span>
+              <span>1</span> <!-- кол-во -->
+              <span>x 90$</span>
+            </a>
+            <input type="button" value="+">
+            <input type="button" value="-">
+          </div>
+          <div> <!-- товар3 -->
+            <a href="#">
+              <!-- <img src="pics/tshirts.png" alt="item3" width="80" height="80"> -->
+              <span>ФУТБОЛКА</span>
+              <span>1</span> <!-- кол-во -->
+              <span>x 40$</span>
+            </a>
+            <input type="button" value="+">
+            <input type="button" value="-">
+          </div>
+          <div> <!-- кнопки и сумма заказа -->
+            <input type="reset" value="ОЧИСТИТЬ">
+            <input type="submit" value="ЗАКАЗ">
+            <span>СУММА: 150$</span>
+          </div>
+        </div>
+      </div>
+      <div> <!-- правый блок -->
+        <div> <!-- item1 -->
+          <a href="#">
+            <img src="pics/goodie.jpg" alt="ХУДИ" width="250" height="250">
+            <span>ХУДИ</span> <!-- наименование -->
+            <span>90$</span> <!-- цена -->
+            <span>Худи из новой колекции.</span> <!-- описание -->
+          </a>
+          <input type="button" value="В КОРЗИНУ">
+        </div>
+        <div> <!-- item2 -->
+          <a href="#">
+            <img src="pics/hat.jpg" alt="ШАПКА" width="250" height="250">
+            <span>ШАПКА</span> 
+            <span>20$</span> 
+            <span>Шапка из старой коллекции.</span> 
+          </a>
+          <input type="button" value="В КОРЗИНУ">
+        </div>
+        <div> <!-- item3 -->
+          <a href="#">
+            <img src="pics/hoodie.jpg" alt="ХУДИ" width="250" height="250">
+            <span>ХУДИ</span>
+            <span>90$</span> 
+            <span>Худи коллаб с тимсеш.</span>
+          </a>
+          <input type="button" value="В КОРЗИНУ">
+        </div>
+        <div> <!-- item4 -->
+          <a href="#">
+            <img src="pics/socks.jpg" alt="НОСКИ" width="250" height="250">
+            <span>НОСКИ</span> 
+            <span>10$</span> 
+            <span>Носки, чтобы флексить когда холодно.</span> 
+          </a>
+          <input type="button" value="В КОРЗИНУ">
+        </div>
+        <div> <!-- item5 -->
+          <a href="#">
+            <img src="pics/tshirts.png" alt="ФУТБОЛКА" width="250" height="250">
+            <span>ФУТБОЛКА</span> 
+            <span>40$</span> 
+            <span>Футболка чисто вынести мусор.</span> 
+          </a>
+          <input type="button" value="В КОРЗИНУ">
+        </div>
+        <div> <!-- item6 -->
+          <a href="#">
+            <img src="pics/item6.png" alt="СМЫСОЛ" width="250" height="250">
+            <span>СМЫСОЛ ЖИТЬ</span> 
+            <span>SOLD OUT</span> 
+            <span>Это смысл жить. Его нет.</span> 
+          </a>
+        </div>
+      </div>
+      <footer>
+        <span>&#169; СЕМАНТИКА, 2018. Все права защищены</span>
+      </footer>
+    </div>
+  </body>
+</html>
