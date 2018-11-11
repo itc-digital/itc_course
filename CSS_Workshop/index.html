@@ -23,55 +23,57 @@
           <li class="nav__item"><a href="#" class="nav__link">Скидки</a></li>
         </ul>
       </nav>
-      <div class="clear"></div>
+      
     </header>
-    <div>
-      <div> <!-- левый блок -->
-        <div> <!-- пользователь -->
-          <img src="pics/userIcon.png" alt="ТУТ ТВОЁ ЛИЦО" width="100" height="100">
-          <span>Фнейм</span> <!-- я хз, во что обрамлять текст. на половине сайтов он вообще между тегами болтается или вписан в атрибуты ссылки или div -->
-          <span>Лнейм</span>
-        </div>
-        <div> <!-- корзина -->
-          <h3>КОРЗИНА</h3>
-          <div> <!-- товар1 -->
-            <a href="#">
-              <!-- <img src="pics/hat.jpg" alt="item1" width="80" height="80"> -->
-              <span>ШАПКА</span>
-              <span>1</span> <!-- кол-во -->
-              <span>x 20$</span>
-            </a>
-            <input type="button" value="+">
-            <input type="button" value="-">
+    <div class="wrapper">
+      <div class="wrapper__left-col">
+        <div class="cart">
+          <div class="cart-user">
+            <img class="cart-user__photo" src="pics/userIcon.png" alt="ТУТ ТВОЁ ЛИЦО" width="100" height="100">
+            <span class="cart-user__fname">Фнейм</span> <!-- я хз, во что обрамлять текст. на половине сайтов он вообще между тегами болтается или вписан в атрибуты ссылки или div -->
+            <span class="cart-user__sname">Лнейм</span>
           </div>
-          <div> <!-- товар2 -->
-            <a href="#">
-              <!-- <img src="pics/hoodie.jpg" alt="item2" width="80" height="80"> -->
-              <span>ХУДИ</span>
-              <span>1</span> <!-- кол-во -->
-              <span>x 90$</span>
-            </a>
-            <input type="button" value="+">
-            <input type="button" value="-">
+          <div class="cart-main">
+            <h3 class="cart-main__title">КОРЗИНА</h3>
+            <div class="cart-main__list">
+              <div class="cart-main__list">
+                <a href="#">
+                  <span>ШАПКА</span>
+                  <span>1</span>
+                  <span>x 20$</span>
+                </a>
+                <input type="button" value="+">
+                <input type="button" value="-">
+              </div>
+              <div>
+                <a href="#">
+                  <span>ХУДИ</span>
+                  <span>1</span>
+                  <span>x 90$</span>
+                </a>
+                <input type="button" value="+">
+                <input type="button" value="-">
+              </div>
+              <div> <!-- товар3 -->
+                <a href="#">
+                  <!-- <img src="pics/tshirts.png" alt="item3" width="80" height="80"> -->
+                  <span>ФУТБОЛКА</span>
+                  <span>1</span> <!-- кол-во -->
+                  <span>x 40$</span>
+                </a>
+                <input type="button" value="+">
+                <input type="button" value="-">
+              </div>
+            </div>
           </div>
-          <div> <!-- товар3 -->
-            <a href="#">
-              <!-- <img src="pics/tshirts.png" alt="item3" width="80" height="80"> -->
-              <span>ФУТБОЛКА</span>
-              <span>1</span> <!-- кол-во -->
-              <span>x 40$</span>
-            </a>
-            <input type="button" value="+">
-            <input type="button" value="-">
-          </div>
-          <div> <!-- кнопки и сумма заказа -->
+          <div class="cart__buttons"> <!-- кнопки и сумма заказа -->
             <input type="reset" value="ОЧИСТИТЬ">
             <input type="submit" value="ЗАКАЗ">
             <span>СУММА: 150$</span>
           </div>
         </div>
       </div>
-      <div> <!-- правый блок -->
+      <div class="wrapper__right-col"> <!-- правый блок -->
         <div> <!-- item1 -->
           <a href="#">
             <img src="pics/goodie.jpg" alt="ХУДИ" width="250" height="250">
@@ -126,9 +128,9 @@
           </a>
         </div>
       </div>
-      <footer>
-        <span>&#169; СЕМАНТИКА, 2018. Все права защищены</span>
-      </footer>
     </div>
+    <footer>
+      <span>&#169; СЕМАНТИКА, 2018. Все права защищены</span>
+    </footer>
   </body>
 </html>
