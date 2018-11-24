@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: 72px;
+  justify-content: center;
+}
+.logo__image {
+  height: 11px;
+}

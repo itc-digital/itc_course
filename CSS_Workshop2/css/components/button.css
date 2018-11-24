@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  min-width: 72px;
+  margin-left: 12px;
+  padding-right: 8px;
+  padding-left: 8px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.button_default {
+  color: #1d1d1d;
+  border: 1px solid #e0e0e0;
+  background: transparent;
+}
+.button_primary {
+  color: #ffffff;
+  border: none;
+  background-color: #262626;
+}
+.button_cart {
+  display: none;
+}

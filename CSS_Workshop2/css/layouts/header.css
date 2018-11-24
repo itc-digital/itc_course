@@ -1,0 +1,10 @@
+.header {
+  min-height: 72px;
+  background-color: #ffffff;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

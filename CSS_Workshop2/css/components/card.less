@@ -1,0 +1,36 @@
+@import url('../themes/main_theme');
+
+.card {
+  padding: 24px 16px;
+  transform: translateY(55px);
+  text-align: center;
+  border-radius: 2px;
+  background-color: @color-scnd;
+  box-shadow: @box-shadow-scnd;
+  
+  &__title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: @color-font-main;
+    font-size: @font-size-h1-xs;
+    font-weight: 400;
+  }
+
+  &__subtitle {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: @color-font-main-lght;
+    font-size: @font-size-subtitle-xs;
+    font-weight: 400;
+  }
+
+  &__time {
+    display: inline-block;
+    padding: 8px 16px;
+    color: @color-font-scnd;
+    border-radius: 16px;
+    background-color: @color-main;
+    font-size: @font-size-time-xs;
+    font-weight: 400;
+  }
+}

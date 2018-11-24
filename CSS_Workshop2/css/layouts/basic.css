@@ -1,0 +1,8 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i&subset=cyrillic');
+html {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #f2f2f2;
+}

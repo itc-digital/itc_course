@@ -1,0 +1,30 @@
+@import url('../themes/main_theme');
+
+.button {
+  display: inline-block;
+  min-width: 72px;
+  margin-left: 12px;
+  padding-right: 8px;
+  padding-left: 8px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: @font-size-button-xs;
+  font-weight: 500;
+  line-height: 40px;
+
+  &_default {
+    color: @color-font-main;
+    border: 1px solid @color-border-main;
+    background: transparent;
+  }
+
+  &_primary {
+    color: @color-font-scnd;
+    border: none;
+    background-color: @color-main;
+  }
+
+  &_cart {
+    display: none;
+  }
+}
